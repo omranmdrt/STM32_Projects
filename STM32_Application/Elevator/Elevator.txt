@@ -1,0 +1,126 @@
+Configuration	Elevator
+STM32CubeMX 	6.15.0
+Date	08/26/2025
+MCU	STM32G030C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN7	ADC1_IN7	PA7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT (PF1)
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	Output Compare CH2	TIM1_CH2	PB3
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PF0-OSC_IN (PF0)	RCC_OSC_IN	
+9	PF1-OSC_OUT (PF1)	RCC_OSC_OUT	
+11	PA0	GPIO_EXTI0	Floor_N1_But
+12	PA1	GPIO_EXTI1	Floor_0_But
+13	PA2	GPIO_EXTI2	Floor_1_But
+14	PA3	GPIO_EXTI3	Floor_2_But
+15	PA4	GPIO_EXTI4	Floor_3_But
+16	PA5	GPIO_EXTI5	Alarm_But
+17	PA6	GPIO_EXTI6	Door_Open_But
+18	PA7	ADC1_IN7	Overload
+19	PB0	GPIO_Input	Fan_But
+20	PB1	GPIO_Input	Phone_But
+22	PB10	GPIO_EXTI10	Door_Close_But
+23	PB11	GPIO_EXTI11	Door_Open_Sensor
+24	PB12	GPIO_EXTI12	Door_Close_Sensor
+25	PB13	GPIO_EXTI13	Floor_3_Sensor
+26	PB14	GPIO_EXTI14	Floor_2_Sensor
+27	PB15	GPIO_EXTI15	Floor_1_Sensor
+28	PA8	GPIO_EXTI8	Floor_0_Sensor
+29	PA9	GPIO_EXTI9	Floor_N1_Sensor
+31	PC7	GPIO_Output	Overload_LED
+35	PA13	SYS_SWDIO	
+36	PA14-BOOT0	SYS_SWCLK	
+37	PA15	GPIO_Output	Motor_Door_Close
+38	PD0	GPIO_Output	Motor_Door_Open
+39	PD1	GPIO_Output	Floor_LEDs
+40	PD2	GPIO_Output	Phone_Module
+41	PD3	GPIO_Output	Fan_Relay
+42	PB3	TIM1_CH2	Moto_Pwm
+43	PB4	GPIO_Output	Motor_Down
+44	PB5	GPIO_Output	Motor_Up
+45	PB6	GPIO_Output	Buzzer
+46	PB7	GPIO_EXTI7	Door_Obstacle_Sensor
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN7	ADC1_IN7	PA7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT (PF1)
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	Output Compare CH2	TIM1_CH2	PB3
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PF0-OSC_IN (PF0)	RCC_OSC_IN	
+9	PF1-OSC_OUT (PF1)	RCC_OSC_OUT	
+11	PA0	GPIO_EXTI0	Floor_N1_But
+12	PA1	GPIO_EXTI1	Floor_0_But
+13	PA2	GPIO_EXTI2	Floor_1_But
+14	PA3	GPIO_EXTI3	Floor_2_But
+15	PA4	GPIO_EXTI4	Floor_3_But
+16	PA5	GPIO_EXTI5	Alarm_But
+17	PA6	GPIO_EXTI6	Door_Open_But
+18	PA7	ADC1_IN7	Overload
+19	PB0	GPIO_Input	Fan_But
+20	PB1	GPIO_Input	Phone_But
+22	PB10	GPIO_EXTI10	Door_Close_But
+23	PB11	GPIO_EXTI11	Door_Open_Sensor
+24	PB12	GPIO_EXTI12	Door_Close_Sensor
+25	PB13	GPIO_EXTI13	Floor_3_Sensor
+26	PB14	GPIO_EXTI14	Floor_2_Sensor
+27	PB15	GPIO_EXTI15	Floor_1_Sensor
+28	PA8	GPIO_EXTI8	Floor_0_Sensor
+29	PA9	GPIO_EXTI9	Floor_N1_Sensor
+31	PC7	GPIO_Output	Overload_LED
+35	PA13	SYS_SWDIO	
+36	PA14-BOOT0	SYS_SWCLK	
+37	PA15	GPIO_Output	Motor_Door_Close
+38	PD0	GPIO_Output	Motor_Door_Open
+39	PD1	GPIO_Output	Floor_LEDs
+40	PD2	GPIO_Output	Phone_Module
+41	PD3	GPIO_Output	Fan_Relay
+42	PB3	TIM1_CH2	Moto_Pwm
+43	PB4	GPIO_Output	Motor_Down
+44	PB5	GPIO_Output	Motor_Up
+45	PB6	GPIO_Output	Buzzer
+46	PB7	GPIO_EXTI7	Door_Obstacle_Sensor
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Elevator
+Project Folder : C:\Users\Umran\stm32_works\G030C8T6\Elevator
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G0 V1.6.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
