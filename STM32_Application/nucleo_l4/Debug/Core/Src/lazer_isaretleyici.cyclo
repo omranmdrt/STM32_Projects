@@ -1,8 +1,0 @@
-../Core/Src/lazer_isaretleyici.c:14:6:SetVisibleLazerPWM	1
-../Core/Src/lazer_isaretleyici.c:18:6:SetVisibleFlashPWM	1
-../Core/Src/lazer_isaretleyici.c:22:7:SetIRLazerPWM	1
-../Core/Src/lazer_isaretleyici.c:26:6:SetIRFlashPWM	1
-../Core/Src/lazer_isaretleyici.c:30:6:StartPWM	1
-../Core/Src/lazer_isaretleyici.c:38:6:StartDMA	1
-../Core/Src/lazer_isaretleyici.c:44:6:ChangeDeviceMode	1
-../Core/Src/lazer_isaretleyici.c:49:6:DeviceModeHandler	14
