@@ -1,0 +1,6 @@
+../Core/Src/APDS9930.c:11:26:write_byte	1
+../Core/Src/APDS9930.c:20:26:read_byte	1
+../Core/Src/APDS9930.c:28:26:read_word	1
+../Core/Src/APDS9930.c:40:9:APDS9930_Init	2
+../Core/Src/APDS9930.c:67:9:APDS9930_ReadProximity	2
+../Core/Src/APDS9930.c:75:9:APDS9930_ReadAmbientLight	2

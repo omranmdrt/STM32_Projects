@@ -1,0 +1,9 @@
+../Core/Src/ft24c02a_eeprom.c:31:17:FT24C02A_WriteByte	32	static
+../Core/Src/ft24c02a_eeprom.c:79:17:FT24C02A_ReadByte	40	static
+../Core/Src/ft24c02a_eeprom.c:126:17:FT24C02A_WriteBuffer	40	static
+../Core/Src/ft24c02a_eeprom.c:163:17:FT24C02A_ReadBuffer	40	static
+../Core/Src/ft24c02a_eeprom.c:205:17:FT24C02A_WritePage	64	static
+../Core/Src/ft24c02a_eeprom.c:262:17:FT24C02A_ReadPage	40	static
+../Core/Src/ft24c02a_eeprom.c:299:17:FT24C02A_WriteLongData	48	static
+../Core/Src/ft24c02a_eeprom.c:340:17:FT24C02A_ReadLongData	48	static
+../Core/Src/ft24c02a_eeprom.c:366:17:FT24C02A_Clear	40	static
